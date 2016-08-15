@@ -3,7 +3,7 @@ import { MyComponent } from '../../components';
 
 import './index.css';
 
-class App extends Component {
+class _App extends Component {
   constructor(props) {
     super(props);
   }
@@ -20,4 +20,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export const App = _App;

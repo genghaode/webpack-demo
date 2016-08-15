@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import './index.css';
 
-class MyComponent extends Component {
+class _MyComponent extends Component {
   render() {
     return (
       <h1 className="demo">
@@ -14,4 +14,4 @@ class MyComponent extends Component {
   }
 }
 
-export default MyComponent;
+export const MyComponent = _MyComponent;
