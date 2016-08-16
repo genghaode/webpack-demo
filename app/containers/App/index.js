@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MyComponent } from '../../components';
+import { MyComponent } from 'components';
 
 import './index.css';
 
